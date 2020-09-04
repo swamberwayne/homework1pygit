@@ -20,6 +20,9 @@ bd_month = int(input("Month: "))
 bd_day = int(input("Day: "))
 bd_year = int(input("Year: "))
 
+if cd_month == bd_month and cd_day == bd_day:
+    print("Happy Birthday!")
+
 age = cd_year - bd_year
 
 print("You are", age, "years old.")
